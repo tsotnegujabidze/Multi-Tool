@@ -12,11 +12,13 @@ echo 1) Discord
 echo 2) Lunar
 echo 3) TLauncher
 echo 4) Roblox Studio
+echo 5) Purp
 set /p input=.%BS%  
 if /I %input% EQU 1 start Discord.lnk
 if /I %input% EQU 2 start Lunar_Client.lnk
 if /I %input% EQU 3 start TLauncher.lnk
 if /I %input% EQU 4 start Roblox_Studio.lnk
+if /I %input% EQU 5 start purp.lnk
 
 cls
 
