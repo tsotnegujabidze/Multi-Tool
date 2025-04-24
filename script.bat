@@ -12,16 +12,14 @@ echo 1) Discord
 echo 2) Lunar
 echo 3) TLauncher
 echo 4) Roblox Studio
-echo 5) Purp
-echo 6) Spotify
+echo 5) Spotify
 
 set /p input=.%BS%  
 if /I %input% EQU 1 start Discord.lnk
 if /I %input% EQU 2 start Lunar_Client.lnk
 if /I %input% EQU 3 start TLauncher.lnk
 if /I %input% EQU 4 start Roblox_Studio.lnk
-if /I %input% EQU 5 start purp.lnk
-if /I %input% EQU 6 start Spotify.lnk
+if /I %input% EQU 5 start Spotify.lnk
 cls
 
 goto start
